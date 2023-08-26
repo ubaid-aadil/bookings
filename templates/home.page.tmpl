@@ -1,0 +1,16 @@
+{{template "base" .}}
+
+{{define "content"}}
+
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col">
+          <h1>Hello, There is Your Home Page!</h1>
+          <p>This is a paragraph of text</p>
+          <p>This came from the template:  {{index .StringMap "test"}}</p>
+
+      </div>
+    </div>
+  </div>
+
+{{end}}
